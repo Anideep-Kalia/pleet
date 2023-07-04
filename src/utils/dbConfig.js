@@ -10,7 +10,7 @@ const firebaseConfig = {
   storageBucket: "pleet-d8210.appspot.com",
   messagingSenderId: "752205409866",
   appId: "1:752205409866:web:bbd0fccd1c79b7a2b500b3",
-  measurementId: "G-T9113J49KY"
+  // measurementId: "G-T9113J49KY"
 };
 
 // Initialize Firebase
