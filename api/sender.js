@@ -12,7 +12,7 @@ function getIcalObjectInstance(
 ) {
   const cal = ical({
     domain: "locahost:3000",
-    name: "Planit meeting",
+    name: "Pleet meeting",
   });
 
   cal.createEvent({
@@ -74,7 +74,7 @@ async function sendemail(req, calendarObj = null) {
   if (req.method === "POST") {
     const transporter = nodemailer.createTransport({
       service: "gmail",
-      name: "Planit.io",
+      name: "Pleet.io",
       auth: {
         user: process.env.EMAIL,
         pass: process.env.PASSWORD,
