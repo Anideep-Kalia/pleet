@@ -31,7 +31,7 @@ function getIcalObjectInstance(
 
 async function sendemail(req, calendarObj = null) {
   const mailOptions = {
-    from: process.env.EMAIL,
+    from: 'anideepkalia71@gmail.com',
     to: req.body.reply_to,
     subject: `Planit: Your meeting has been scheduled`,
     html: `
