@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import Logo from "../assets/images/logo.svg";
+import Logo from "../assets/images/logo.png";
 import { AuthContext } from "../contexts/AuthContext";
 
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <div className="flex absolute top-0 left-0 w-full justify-between items-center px-36 py-5 z-30 bg-slate-5">
-      <img src={Logo} alt="logo" className="h-20 w-40" />
+      <img src={Logo} alt="logo" className="h-20 w-60" />
       <div className="flex items-center space-x-10">
         <button
           onClick={googleAuth}
