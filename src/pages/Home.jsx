@@ -1,4 +1,4 @@
-import zigzag from "../assets/images/zigzag.svg";
+// import zigzag from "../assets/images/zigzag.svg";
 import ArrowRightAltRoundedIcon from "@mui/icons-material/ArrowRightAltRounded";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
@@ -19,11 +19,11 @@ const Home = () => {
             Professional{" "}
             <span className="text-primary relative">
               scheduling,
-              <img
+              {/* <img
                 src={zigzag}
                 alt="zigzag"
                 className="absolute -bottom-2 left-0"
-              />
+              /> */}
             </span>{" "}
             Made Efficient.
           </h1>
