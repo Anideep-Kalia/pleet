@@ -33,7 +33,7 @@ async function sendemail(req, calendarObj = null) {
   const mailOptions = {
     from: 'anideepkalia71@gmail.com',
     to: req.body.reply_to,
-    subject: `Planit: Your meeting has been scheduled`,
+    subject: `Pleet: Your meeting has been scheduled`,
     html: `
       <!DOCTYPE html>
         <html lang="en">
