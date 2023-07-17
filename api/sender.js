@@ -41,7 +41,7 @@ async function sendemail(req, calendarObj = null) {
             <meta charset="UTF-8" />
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>Planitio email</title>
+            <title>Pleet email</title>
           </head>
           <body>  
             <p>Hello, Your meeting has been scheduled with ${req.body.user_name} (${req.body.user_email}). Here are the details for the same.</p>
@@ -50,7 +50,7 @@ async function sendemail(req, calendarObj = null) {
             <br/>
             <p>Meeting time: ${req.body.meet_date} ${req.body.meet_time}</p>
             <p>Best wishes,</p>
-            <p>Planit.io team.</p>
+            <p>Pleet team.</p>
           </body>
         </html>
       `,
