@@ -45,13 +45,6 @@ export default function BasicModal({ event }) {
                   <AccessTimeIcon className="mr-2 text-lg" />
                   <p className="font-light text-normal">{event?.duration}</p>
                 </div>
-                <div>
-                  <p className="text-gray-600 font-light">
-                    {" "}
-                    <CurrencyRupeeIcon className="!text-lg text-green-600" />
-                    {event.price > 0 ? event.price : "FREE"}
-                  </p>
-                </div>
               </div>
             </div>
             <div className="space-y-5 px-4">

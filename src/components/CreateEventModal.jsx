@@ -213,19 +213,7 @@ export default function BasicModal() {
                 </div>
               </div>
             </div>
-            <div>
-              <label className="font-Lexend font-light" htmlFor="meeting_price">
-                Price
-              </label>
-              <input
-                type="number"
-                id="meeting_price"
-                min={0}
-                className="focus:outline-none border p-3 placeholder:text-base font-Lexend font-normal rounded-md bg-slate-50 w-full"
-                value={price}
-                onChange={(e) => setPrice(e.target.value)}
-              />
-            </div>
+            
             <div className="flex flex-col space-y-2">
               <label
                 htmlFor="event-availability"

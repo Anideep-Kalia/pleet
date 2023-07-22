@@ -49,17 +49,7 @@ const EventCard = ({ event }) => {
         >
           <ContentCopyIcon className="!text-base" /> Copy Link
         </p>
-        <p className="text-gray-600 font-light">
-          <CurrencyRupeeIcon className="!text-lg text-green-600" />
-          {event.price > 0 ? event.price : "FREE"}
-        </p>
         <div className="space-x-2 flex items-center">
-          <Link
-            to={`/bookings/${event.eventId}`}
-            className="border-primary bg-transparent text-slate-700 hover:text-white hover:bg-primary border-[1px] text-sm font-Lexend font-light px-3 py-2 focus:outline-none flex items-center transition-colors rounded-md duration-300 ease-in-out"
-          >
-            Bookings
-          </Link>
           <ViewEventModal event={event} />
         </div>
       </div>
